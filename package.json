@@ -4,7 +4,9 @@
   "description": "This amazing framework is almost perfect, it just needs a little bit of work to be finished.",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "dev": "sass stylesheets/scss:stylesheets/css --watch",
+    "build": "sass style.scss style.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   },
   "homepage": "https://github.com/virtualidentityag/dev-fe-onboarding-miniframework#readme",
   "devDependencies": {
-    "gulp": "^4.0.1"
+    "gulp": "^4.0.2"
   },
   "dependencies": {
     "es6-scroll-to": "^1.1.2",
